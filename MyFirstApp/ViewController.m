@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    IBOutlet UIImageView *wineImageView;
+}
 
 @end
 
@@ -18,6 +20,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(IBAction)buttonTapped:(id)sender{
+    if (wineImageView.hidden == YES) {
+        wineImageView.hidden = NO;
+    } else {
+        wineImageView.hidden = YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning

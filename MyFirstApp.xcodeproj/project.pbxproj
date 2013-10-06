@@ -21,6 +21,9 @@
 		A3B99F831800F5F800DC3534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B99F651800F5F800DC3534 /* UIKit.framework */; };
 		A3B99F8B1800F5F800DC3534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B99F891800F5F800DC3534 /* InfoPlist.strings */; };
 		A3B99F8D1800F5F800DC3534 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B99F8C1800F5F800DC3534 /* MyFirstAppTests.m */; };
+		A3B99F991800F77500DC3534 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B99F961800F77500DC3534 /* earth.png */; };
+		A3B99F9A1800F77500DC3534 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B99F971800F77500DC3534 /* icon.png */; };
+		A3B99F9B1800F77500DC3534 /* wine_rose_256.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B99F981800F77500DC3534 /* wine_rose_256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		A3B99F881800F5F800DC3534 /* MyFirstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstAppTests-Info.plist"; sourceTree = "<group>"; };
 		A3B99F8A1800F5F800DC3534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3B99F8C1800F5F800DC3534 /* MyFirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppTests.m; sourceTree = "<group>"; };
+		A3B99F961800F77500DC3534 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		A3B99F971800F77500DC3534 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A3B99F981800F77500DC3534 /* wine_rose_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine_rose_256.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 		A3B99F551800F5F800DC3534 = {
 			isa = PBXGroup;
 			children = (
+				A3B99F961800F77500DC3534 /* earth.png */,
+				A3B99F971800F77500DC3534 /* icon.png */,
+				A3B99F981800F77500DC3534 /* wine_rose_256.png */,
 				A3B99F671800F5F800DC3534 /* MyFirstApp */,
 				A3B99F861800F5F800DC3534 /* MyFirstAppTests */,
 				A3B99F601800F5F800DC3534 /* Frameworks */,
@@ -228,7 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B99F991800F77500DC3534 /* earth.png in Resources */,
+				A3B99F9A1800F77500DC3534 /* icon.png in Resources */,
 				A3B99F7A1800F5F800DC3534 /* Images.xcassets in Resources */,
+				A3B99F9B1800F77500DC3534 /* wine_rose_256.png in Resources */,
 				A3B99F6C1800F5F800DC3534 /* InfoPlist.strings in Resources */,
 				A3B99F751800F5F800DC3534 /* Main.storyboard in Resources */,
 			);
